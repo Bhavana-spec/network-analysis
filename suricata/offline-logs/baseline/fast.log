@@ -1,0 +1,2 @@
+03/25/2026-22:17:03.622160  [**] [1:1000001:1] ICMP Traffic Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.21.0.2:8 -> 172.21.0.3:0
+03/25/2026-22:17:03.622287  [**] [1:1000001:1] ICMP Traffic Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.21.0.3:0 -> 172.21.0.2:0

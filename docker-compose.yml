@@ -1,0 +1,37 @@
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: dvwa
+    ports:
+      - "8080:80"
+    networks:
+      - dmz
+
+  kali:
+    image: kalilinux/kali-rolling
+    container_name: kali
+    tty: true
+    stdin_open: true
+    command: /bin/bash
+    networks:
+      - dmz
+
+  suricata:
+    image: jasonish/suricata:latest
+    container_name: suricata
+    cap_add:
+      - NET_ADMIN
+      - SYS_NICE
+    command: -i eth0 -c /etc/suricata/suricata.yaml
+    volumes:
+      - ./suricata/suricata.yaml:/etc/suricata/suricata.yaml
+      - ./suricata/rules:/var/lib/suricata/rules
+      - ./suricata/logs:/var/log/suricata
+    networks:
+      - dmz
+    depends_on:
+      - dvwa
+
+networks:
+  dmz:
+    driver: bridge

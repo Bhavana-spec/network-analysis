@@ -1,0 +1,4 @@
+suricata/logs/*.log
+suricata/logs/*.json
+.DS_Store
+Thumbs.db

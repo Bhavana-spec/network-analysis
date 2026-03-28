@@ -1,0 +1,40 @@
+------------------------------------------------------------------------------------
+Date: 3/26/2026 -- 23:25:48 (uptime: 0d, 00h 00m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+decoder.pkts                                  | Total                     | 1991
+decoder.bytes                                 | Total                     | 111458
+decoder.ipv4                                  | Total                     | 1988
+decoder.ethernet                              | Total                     | 1991
+decoder.arp                                   | Total                     | 3
+decoder.tcp                                   | Total                     | 1988
+tcp.syn                                       | Total                     | 994
+tcp.synack                                    | Total                     | 1
+tcp.rst                                       | Total                     | 993
+decoder.avg_pkt_size                          | Total                     | 55
+decoder.max_pkt_size                          | Total                     | 58
+flow.total                                    | Total                     | 994
+flow.tcp                                      | Total                     | 994
+flow.wrk.spare_sync_avg                       | Total                     | 100
+flow.wrk.spare_sync                           | Total                     | 16
+flow.wrk.flows_evicted_needs_work             | Total                     | 994
+flow.wrk.flows_evicted_pkt_inject             | Total                     | 994
+flow.wrk.flows_injected                       | Total                     | 994
+tcp.sessions                                  | Total                     | 994
+tcp.ssn_from_pool                             | Total                     | 994
+tcp.invalid_checksum                          | Total                     | 1
+flow.end.state.new                            | Total                     | 2
+flow.end.state.closed                         | Total                     | 992
+flow.end.tcp_state.syn_sent                   | Total                     | 2
+flow.end.tcp_state.closed                     | Total                     | 992
+flow.mgr.rows_per_sec                         | Total                     | 6553
+flow.spare                                    | Total                     | 9200
+flow.mgr.rows_maxlen                          | Total                     | 1
+flow.mgr.flows_checked                        | Total                     | 30
+flow.mgr.flows_notimeout                      | Total                     | 30
+memcap_pressure                               | Total                     | 7
+memcap_pressure_max                           | Total                     | 7
+tcp.memuse                                    | Total                     | 4980736
+tcp.reassembly_memuse                         | Total                     | 917504
+flow.memuse                                   | Total                     | 9331456
